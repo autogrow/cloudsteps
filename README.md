@@ -22,7 +22,7 @@ DefinitionString:
 RoleArn: !Sub "arn:aws:iam::${AWS::AccountId}:role/service-role/StatesExecutionRole-${AWS::Region}"
 ```
 
-But you want to put it in your cloud formation template but you [came across this problem](https://stackoverflow.com/questions/51627531/deploy-stepfunctions-with-cloudformation-from-external-definition-file).  Run the command like so:
+You want to put it in your CloudFormation template at `cftemplate.yml` but you [came across this problem](https://stackoverflow.com/questions/51627531/deploy-stepfunctions-with-cloudformation-from-external-definition-file).  Run the command like so:
 
     cloudsteps -t cftemplate.yml -in steps.yml -t
 
