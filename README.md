@@ -2,6 +2,10 @@
 
 A tool to merge a YAML step function definition in with a CloudFormation template file.
 
+## Installation
+
+Download a binary from the releases page.
+
 ## Usage
 
 You have this at `steps.yml`:
