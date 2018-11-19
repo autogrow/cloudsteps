@@ -1,6 +1,6 @@
 # Cloud Steps
 
-A tool to merge a YAML step function definition in with a CloudFormation template file.
+A tool to merge a YAML step function definition in with a YAML CloudFormation template file.
 
 ## Installation
 
